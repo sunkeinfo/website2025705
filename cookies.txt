@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.canvasite.cn	TRUE	/	FALSE	1999999999	__cf_bm	R20hfE9C3_.wBkFNBaFmF29aTzi5MwMGalmRobMzckA-1751677594-1.0.1.1-tK_1ofbf03ELsp12NHMzmjRTq9hVz3jPi3udMybsE3UeGjDfTSBlG6.nsjv_vsyP2FSlKQ4zef3Ql8_baakkbPnZ5rf3911siUJh.Tbr8vM
+coolboy.my.canvasite.cn	TRUE	/	FALSE	1999999999	SameSite	None
+www.qifeiye.com	TRUE	/	FALSE	1999999999	PHPSESSID	iub33njhf2a8u3i9ai0muht4lb
+
