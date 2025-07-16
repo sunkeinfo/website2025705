@@ -1,17 +1,11 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sat, 05 Jul 2025 01:06:21 at https://www.awsdo.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.awsdo.com/ -O1 "C:\My Web Sites\111111" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 16 Jul 2025 02:31:56 at https://baghostweb.blogspot.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://baghostweb.blogspot.com/ -O1 "C:\My Web Sites\aaaa" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-01:07:16	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.qifeiye.com/qfy-content/uploads/2019/02/5d81b06c9e32fea3458fcb8c6979e8f1.png (from https://www.awsdo.com/p/mpweixinqqcom.html)
-01:07:16	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link https://9527wangzhuan.com/wp-content/uploads/2023/06/edge-IP查询.png (from https://www.awsdo.com/p/windowsv2rayxbox.html)
-01:07:17	Warning: 	Found for https://www.qifeiye.com/qfy-content/uploads/2019/02/5d81b06c9e32fea3458fcb8c6979e8f1.png
-01:07:17	Warning: 	Warning moved treated for https://www.qifeiye.com/qfy-content/uploads/2019/02/5d81b06c9e32fea3458fcb8c6979e8f1.png (real one is https://ccdn1.goodq.top/caches/2d2bd038d43e773a454cbb4ae76768fb/aHR0cHM6Ly93d3cucWlmZWl5ZS5jb20vcWZ5LWNvbnRlbnQvdXBsb2Fkcy8yMDE5LzAyLzVkODFiMDZjOWUzMmZlYTM0NThmY2I4YzY5NzllOGYxLnBuZw_p_p100_p_3D_p_p100_p_3D.png)
-01:07:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://9527wangzhuan.com/wp-content/uploads/2023/06/edge-IP查询.png (from https://www.awsdo.com/p/windowsv2rayxbox.html)
-01:07:17	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://9527wangzhuan.com/wp-content/uploads/2023/06/edge-IP查询.png (from https://www.awsdo.com/p/windowsv2rayxbox.html)
 
-HTTrack Website Copier/3.49-2 mirror complete in 56 seconds : 124 links scanned, 118 files written (16526957 bytes overall) [15496057 bytes received at 276715 bytes/sec], 1939689 bytes transferred using HTTP compression in 28 files, ratio 41%, 3.2 requests per connection
-(1 errors, 5 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 21 seconds : 43 links scanned, 42 files written (6440618 bytes overall) [5888729 bytes received at 280415 bytes/sec], 734805 bytes transferred using HTTP compression in 11 files, ratio 19%, 2.3 requests per connection
+(No errors, 0 warnings, 0 messages)
