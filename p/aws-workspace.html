@@ -153,19 +153,22 @@ default="transparent none repeat scroll top left"/>
     line-height: 1.6;
 }
 
-/* Hero Section */
+/* Hero Section - Image on Top */
 .hero-section {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    text-align: center;
     padding: 30px 20px;
     background-color: #ffffff;
     border-radius: 8px;
     margin-bottom: 25px;
 }
-.hero-text {
-    flex: 1;
-    text-align: left;
+.hero-image {
+    max-width: 800px; /* Control max width of the hero image */
+    margin: 0 auto 25px auto;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 .hero-text h1 {
     font-size: 36px;
@@ -178,29 +181,10 @@ default="transparent none repeat scroll top left"/>
     color: #555;
     line-height: 1.7;
     margin-top: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.hero-image {
-    flex: 1;
-    max-width: 50%;
-}
-.hero-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-@media (max-width: 768px) {
-    .hero-section {
-        flex-direction: column;
-        text-align: center;
-    }
-    .hero-text {
-        text-align: center;
-    }
-    .hero-image {
-        max-width: 100%;
-    }
-}
-
 
 /* Features Grid */
 .features-grid {
@@ -368,6 +352,32 @@ default="transparent none repeat scroll top left"/>
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Payment Methods */
+.payment-methods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+}
+.payment-method-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.payment-method-card i {
+    font-size: 36px;
+    color: #3e65b9;
+    margin-bottom: 15px;
+}
+.payment-method-card h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
 }
 
 /* ---
@@ -1171,12 +1181,12 @@ margin-left: 0;
 
 <!-- Hero Section -->
 <section class="hero-section">
+    <div class="hero-image">
+        <img src="../../hosting.sunke.info/files/workspace1115.png" alt="云桌面概念图">
+    </div>
     <div class="hero-text">
         <h1>AWSDO.COM 云桌面 <br>您的专属云端办公室</h1>
         <p>随时随地，使用任何设备安全访问您的办公桌面和应用。我们为您提供安全、高效、灵活的云电脑解决方案，助力企业轻松实现远程办公和移动办公。</p>
-    </div>
-    <div class="hero-image">
-        <img src="../../hosting.sunke.info/files/workspace1115.png" alt="云桌面概念图">
     </div>
 </section>
 
@@ -1335,6 +1345,16 @@ margin-left: 0;
                         <div class="price-original">原价: ¥1740/月</div>
                     </td>
                 </tr>
+                 <tr>
+                    <td class="plan-name">至尊版</td>
+                    <td class="plan-specs">16 vCPU / 64GB 内存 / 1280GB SSD</td>
+                    <td>图形工作站、大规模计算</td>
+                    <td>8TB</td>
+                    <td>
+                        <div class="price-main">¥1653 <span class="unit">/月</span></div>
+                        <div class="price-original">原价: ¥4133/月</div>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -1389,8 +1409,41 @@ margin-left: 0;
      </div>
 </section>
 
-<!-- Order Form Section -->
+<!-- Payment Methods Section -->
 <section class="content-section" style="background-color: #ffffff;">
+    <h2>支持的付款方式</h2>
+    <p class="section-intro">我们支持多种全球及本地支付方式，为您提供安全、便捷的购买体验。</p>
+    <div class="payment-methods-grid">
+        <div class="payment-method-card">
+            <i class="fa fa-btc"></i>
+            <h3>USDT 数字货币</h3>
+        </div>
+        <div class="payment-method-card">
+            <i class="fa fa-mobile"></i>
+            <h3>转数快 (FPS HK)</h3>
+        </div>
+        <div class="payment-method-card">
+            <i class="fa fa-credit-card"></i>
+            <h3>信用卡</h3>
+        </div>
+         <div class="payment-method-card">
+            <i class="fa fa-wechat"></i>
+            <h3>微信支付</h3>
+        </div>
+        <div class="payment-method-card">
+            <i class="fa fa-money"></i>
+            <h3>支付宝</h3>
+        </div>
+        <div class="payment-method-card">
+            <i class="fa fa-shopping-cart"></i>
+            <h3>在线商城</h3>
+        </div>
+    </div>
+</section>
+
+
+<!-- Order Form Section -->
+<section class="content-section">
     <h2>立即开启您的云端办公室</h2>
     <p class="section-intro">请在下方表单中提交您的需求，我们的专家将尽快与您联系，为您量身定制最合适的云桌面解决方案。</p>
     <iframe width="100%" height="880px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZ__uPWo69UOTkzM0ZKVldLWTNWRjJIMzVIQ1cwSzk3Ui4u&amp;embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: 1px solid #ccc; border-radius: 8px; max-width:1300px; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
